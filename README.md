@@ -69,12 +69,12 @@ C'est la bibliothèque utilisée par défaut dans le TP
 Pyglet a parfois quelques difficultés avec les chemins absolus de fichiers. La façon la plus simple d'utiliser Pyglet
 est de bâtir l'équivalent d'un "PATH" (séries de répertoires où chercher le fichier) et d'appeler le fichier avec juste
 le nom:
->repertoire_courant = os.path.dirname(os.path.realpath(__file__))
->chemins = os.path.join(chemins, nouveau_chemin) 
->chemins_musique = os.path.join(repertoire_courant, chemins)  
+>repertoire_courant = os.path.dirname(os.path.realpath(__file__))  
+>chemins = os.path.join(chemins, nouveau_chemin)   
+>chemins_musique = os.path.join(repertoire_courant, chemins)    
 pyglet.resource.path = [chemins_musique]  
 pyglet.resource.reindex()  
->musique = pyglet.resource.media("mon_fichier.mp3") 
+>musique = pyglet.resource.media("mon_fichier.mp3")   
 >musique.play()
 
 Il est possible de mettre les medias (ex: musique) dans une file pour faire une liste de lecture. Au lieu la chanson
