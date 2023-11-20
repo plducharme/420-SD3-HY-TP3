@@ -183,6 +183,8 @@ bon ils vous semblent. Cependant, ne pas oublier les principes de bases:
 ## Extras / Bonis
 - Ajouter le mode aléatoire pour la liste de lecture 1%
 - Possibilité de réarranger la liste de lecture 2%
+- Ajout de l'image dans la section centrale 1%
+- Volet de visualisation de la musique dans la section centrale: 3% qui peuvent aller au-delà du seuil de 30% 
 - D'autres points bonis pourraient s'ajouter
 
 ## Application dans le monde réelle

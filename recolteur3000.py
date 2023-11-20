@@ -22,6 +22,7 @@ class RecolteurDB:
         self.curseur = self.connexion.cursor()
 
 
+
     def reset(self):
         # Exécuter les DROP TABLE
 

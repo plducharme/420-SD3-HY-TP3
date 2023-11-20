@@ -6,6 +6,7 @@ class Album:
         self._album_id = album_id
         self._nom = nom
         self._artiste = artiste
+
     @property
     def album_id(self):
         return self._album_id
